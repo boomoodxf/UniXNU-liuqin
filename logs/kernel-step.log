@@ -1,0 +1,36 @@
+== submodules /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin
+== tree /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree
+== kernel: XNU
+== kernel: bootstrap pass for the compile records
++ bash /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/scripts/build-xnu-4k-baseline.sh
+[14/15] Generating os_availability.h
+[14/15] Install the project...
+-- Install configuration: ""
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/AppleInternal
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/PrivateHeaders/AvailabilityInternalPrivate.h -> ../../../../../../../usr/local/include/AvailabilityInternalPrivate.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/PrivateHeaders/AvailabilityProhibitedInternal.h -> ../../../../../../../usr/local/include/AvailabilityProhibitedInternal.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/os/availability.h -> ../../../../../../../../usr/include/os/availability.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/Availability.h -> ../../../../../../../usr/include/Availability.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityInternal.h -> ../../../../../../../usr/include/AvailabilityInternal.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityInternalLegacy.h -> ../../../../../../../usr/include/AvailabilityInternalLegacy.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityMacros.h -> ../../../../../../../usr/include/AvailabilityMacros.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityVersions.h -> ../../../../../../../usr/include/AvailabilityVersions.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/dyld/VersionMap.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/dyld/for_dyld_priv.inc
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityInternalPrivate.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityProhibitedInternal.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/os_availability_private.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityPrivate.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/os/availability.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/Availability.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityInternal.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityInternalLegacy.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityMacros.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityVersions.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/os_availability.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/libexec/availability.pl
+error: patch failed: osfmk/arm64/arm_vm_init.c:1864
+error: osfmk/arm64/arm_vm_init.c: patch does not apply
+warning: osfmk/kern/startup.c has type 100644, expected 100755
+build-xnu-4k-baseline.sh: line 54: git -C .cache/xnu-work apply --check "$PATCH" failed
+unixnu: bash failed (1); full log: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/logs/kernel-bootstrap.log

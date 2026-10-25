@@ -1,0 +1,69 @@
+Cloning into '.cache/xnu-work'...
+/opt/homebrew/bin/cmake  -GNinja 	-DCMAKE_MAKE_PROGRAM=/opt/homebrew/bin/ninja -DSRCROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/feeds/AvailabilityVersions-1c8ff76f -DOBJROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability		\
+											-DSYMROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability -DDSTROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot -DDRIVERKIT=0														\
+											-DSYSTEM_PREFIX= -DCONFIG_EXCLAVEKIT=0											\
+											-DCONFIG_EXCLAVECORE=0 -DINSTALL_KERNEL_HEADERS="1" \
+											-S /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/feeds/AvailabilityVersions-1c8ff76f -B /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability
+-- SRCROOT="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/feeds/AvailabilityVersions-1c8ff76f"
+-- DSTROOT="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot"
+-- OBJROOT="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability"
+-- SYMROOT="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability"
+-- APPLE_INTERNAL="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/AppleInternal"
+-- CMAKE_CURRENT_BINARY_DIR="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability"
+-- USR_LOCAL_LIBEXEC="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/libexec"
+-- USR_LOCAL_INCLUDE="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include"
+-- USR_INCLUDE="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include"
+-- RUNTIME="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/Runtime/usr/include"
+-- RUNTIME_LOCAL="/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/Runtime/usr/local/include"
+-- CONFIG_EXCLAVEKIT="0"
+-- CONFIG_EXCLAVECORE="0"
+-- DRIVERKIT="0"
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability
+/opt/homebrew/bin/ninja -C /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability install
+ninja: Entering directory `/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability'
+ninja: warning: Ignoring jobserver: Pipe-based protocol is not supported! [ --jobserver-fds=3,4 -j -- NINJA=/opt/homebrew/bin/ninja CMAKE=/opt/homebrew/bin/cmake DSTROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot SYMROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability OBJROOT=/Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/build/availability]
+[1/15] Generating os_availability.modulemap
+[2/15] Generating os_availability_private.modulemap
+[3/15] Generating AvailabilityPrivate.modulemap
+[4/15] Generating availability
+[5/15] Generating AvailabilityInternal.h
+[6/15] Generating AvailabilityInternalLegacy.h
+[7/15] Generating Availability.h
+[8/15] Generating AvailabilityInternalPrivate.h
+[9/15] Generating AvailabilityMacros.h
+[10/15] Generating AvailabilityVersions.h
+[11/15] Generating AvailabilityProhibitedInternal.h
+[12/15] Generating for_dyld_priv.inc
+[13/15] Generating VersionMap.h
+[14/15] Generating os_availability.h
+[14/15] Install the project...
+-- Install configuration: ""
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/AppleInternal
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/PrivateHeaders/AvailabilityInternalPrivate.h -> ../../../../../../../usr/local/include/AvailabilityInternalPrivate.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/PrivateHeaders/AvailabilityProhibitedInternal.h -> ../../../../../../../usr/local/include/AvailabilityProhibitedInternal.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/os/availability.h -> ../../../../../../../../usr/include/os/availability.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/Availability.h -> ../../../../../../../usr/include/Availability.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityInternal.h -> ../../../../../../../usr/include/AvailabilityInternal.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityInternalLegacy.h -> ../../../../../../../usr/include/AvailabilityInternalLegacy.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityMacros.h -> ../../../../../../../usr/include/AvailabilityMacros.h
+-- Created symlink: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/AvailabilityVersions.h -> ../../../../../../../usr/include/AvailabilityVersions.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/dyld/VersionMap.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/dyld/for_dyld_priv.inc
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityInternalPrivate.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityProhibitedInternal.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/os_availability_private.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/include/AvailabilityPrivate.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/os/availability.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/Availability.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityInternal.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityInternalLegacy.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityMacros.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/AvailabilityVersions.h
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/include/os_availability.modulemap
+-- Installing: /Users/runner/work/UniXNU-liuqin/UniXNU-liuqin/out/liuqin/tree/.cache/fakeroot/usr/local/libexec/availability.pl
+error: patch failed: osfmk/arm64/arm_vm_init.c:1864
+error: osfmk/arm64/arm_vm_init.c: patch does not apply
+warning: osfmk/kern/startup.c has type 100644, expected 100755
+build-xnu-4k-baseline.sh: line 54: git -C .cache/xnu-work apply --check "$PATCH" failed
